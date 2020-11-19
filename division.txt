@@ -1,1 +1,2 @@
 desarollo
+Implementar divicion para cero
