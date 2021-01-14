@@ -2,17 +2,17 @@ package com.example.aplicacionmovil_software
 
 class IPostHttp(
     var id: Int,
-    var userID:Any,
-    var tittle: String,
-    var body: String
+    var userId:Any,
+    var title: String,
+    var body: String?
 
 ) {
     init {
-        if(userID is String){
-            userID=(userID as String).toInt()
+        if(userId is String){
+            userId = (userId as String).toInt()
         }
-        if(userID is Int){
-            userID=userID
+        if(userId is Int){
+            userId = userId
         }
     }
 }

@@ -44,7 +44,7 @@ class BListView : AppCompatActivity() {
 
         registerForContextMenu(listView)
 
-        /*listView
+        listView
                 .setOnItemLongClickListener{ parent, view, position, id ->
 
                     val builder = AlertDialog.Builder(this)
@@ -54,7 +54,7 @@ class BListView : AppCompatActivity() {
                     return@setOnItemLongClickListener true
 
                 }
-        */
+
     }
 
     //2) Seleccionar XML a usar en el menu contextual
@@ -144,7 +144,7 @@ class BListView : AppCompatActivity() {
         arreglo: ArrayList<BEntrenador>,
         adaptador: ArrayAdapter<*>
     ) {
-       // BBaseDeDatos.anadirItemAlArreglo(BEntrenador("Ash", "Pueblo Paleta"))
+        BBaseDeDatos.anadirItemAlArreglo(BEntrenador("Ash", "Pueblo Paleta",null))
         adaptador.notifyDataSetChanged()
     }
 }
