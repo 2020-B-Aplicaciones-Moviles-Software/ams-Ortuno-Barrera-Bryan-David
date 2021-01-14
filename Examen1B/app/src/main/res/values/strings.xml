@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Examen1B</string>
+    <string name="nombreMarca">Nombre Marca:</string>
+    <string name="paisMarca">País Marca:</string>
+    <string name="empresaMarca">Empresa Marca:</string>
+    <string name="fechaFundacionMarca">Fecha Fundación:</string>
+    <string name="nombreCelular">Nombre Celular:</string>
+    <string name="fechaCelular">Fecha Lanzamiento:</string>
+    <string name="pixelesCamara">Pixeles de la Cámara:</string>
+    <string name="lectorHuella">Lector de huella:</string>
+    <string name="precioCelular">Precio Celular:</string>
+</resources>
