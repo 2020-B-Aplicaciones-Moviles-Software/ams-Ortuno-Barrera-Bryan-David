@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditarMarca">
+
+    <Button
+        android:id="@+id/editarMarcaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="344dp"
+        android:text="EDITAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editPaisMarca" />
+
+    <EditText
+        android:id="@+id/editFechaMarca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="Fecha"
+        app:layout_constraintEnd_toEndOf="@+id/editNombreMarca"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/editNombreMarca"
+        app:layout_constraintTop_toBottomOf="@+id/editNombreMarca" />
+
+    <EditText
+        android:id="@+id/editNombreMarca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.82"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editEmpresaMarca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Empresa"
+        app:layout_constraintEnd_toEndOf="@+id/editNombreMarca"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/editNombreMarca"
+        app:layout_constraintTop_toBottomOf="@+id/editNombreMarca" />
+
+    <EditText
+        android:id="@+id/editPaisMarca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="176dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="País"
+        app:layout_constraintEnd_toEndOf="@+id/editNombreMarca"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/editNombreMarca"
+        app:layout_constraintTop_toBottomOf="@+id/editNombreMarca" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombreMarca"
+        app:layout_constraintBottom_toBottomOf="@+id/editNombreMarca"
+        app:layout_constraintEnd_toStartOf="@+id/editNombreMarca"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editNombreMarca" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/paisMarca"
+        app:layout_constraintBottom_toBottomOf="@+id/editPaisMarca"
+        app:layout_constraintEnd_toStartOf="@+id/editPaisMarca"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editPaisMarca" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/empresaMarca"
+        app:layout_constraintBottom_toBottomOf="@+id/editEmpresaMarca"
+        app:layout_constraintEnd_toStartOf="@+id/editEmpresaMarca"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editEmpresaMarca" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fechaFundacionMarca"
+        app:layout_constraintBottom_toBottomOf="@+id/editFechaMarca"
+        app:layout_constraintEnd_toStartOf="@+id/editFechaMarca"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editFechaMarca" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
