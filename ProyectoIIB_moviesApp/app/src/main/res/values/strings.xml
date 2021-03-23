@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Aplicación de películas</string>
+    <string name="inicio">INICIAR SESIÓN</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">APLICACIÓN DE PELÍCULAS</string>
+    <string name="nav_header_subtitle">bryan.ortuno@epn.edu.ec</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_calificacion">Cafilícanos</string>
+    <string name="action_busqueda">Buscar</string>
+
+    <string name="menu_home">INICIO</string>
+    <string name="menu_gallery">FAVORITOS</string>
+    <string name="menu_slideshow">PREMIUM</string>
+    <string name="menu_alquiler">ALQUILAR PELÍCULA</string>
+    <string name="cerrar_sesi_n">Cerrar Sesión</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

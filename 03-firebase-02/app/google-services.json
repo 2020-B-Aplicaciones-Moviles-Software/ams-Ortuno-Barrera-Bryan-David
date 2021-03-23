@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "449069313178",
+    "project_id": "moviles-2020b-software-rdff",
+    "storage_bucket": "moviles-2020b-software-rdff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449069313178:android:f9db3c4d0a16f4807bc323",
+        "android_client_info": {
+          "package_name": "com.example.a01firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "449069313178-gm0u3ss5cm94cp2a3chl7dji6pmugjrn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiw-U4YAxkpqYwXFxoPz65saYPTDQUlU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "449069313178-gm0u3ss5cm94cp2a3chl7dji6pmugjrn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449069313178:android:13e4b5a4f5ed6a717bc323",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "449069313178-gm0u3ss5cm94cp2a3chl7dji6pmugjrn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiw-U4YAxkpqYwXFxoPz65saYPTDQUlU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "449069313178-gm0u3ss5cm94cp2a3chl7dji6pmugjrn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449069313178:android:709d703c18715a137bc323",
+        "android_client_info": {
+          "package_name": "com.example.firebaseayuda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "449069313178-gm0u3ss5cm94cp2a3chl7dji6pmugjrn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiw-U4YAxkpqYwXFxoPz65saYPTDQUlU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "449069313178-gm0u3ss5cm94cp2a3chl7dji6pmugjrn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

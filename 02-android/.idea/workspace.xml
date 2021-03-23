@@ -30,10 +30,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a59b7111-1886-49e1-ab33-3f9f150f68fa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/aplicacionmovil_software/BListView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/aplicacionmovil_software/BListView.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/aplicacionmovil_software/HHttpActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/aplicacionmovil_software/HHttpActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/aplicacionmovil_software/IPostHttp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/aplicacionmovil_software/IPostHttp.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-firebase-01/app/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-firebase-01/app/src/debug/res/values/google_maps_api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-firebase-01/app/src/main/java/com/example/firebase/BAuthUsuario.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-firebase-01/app/src/main/java/com/example/firebase/BFirestore.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-firebase-01/app/src/main/java/com/example/firebase/BUsuarioFirebase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-firebase-01/app/src/main/java/com/example/firebase/COrdenes.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-firebase-01/app/src/main/java/com/example/firebase/COrdenesList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-firebase-01/app/src/main/java/com/example/firebase/CRestaurante.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-firebase-01/app/src/main/java/com/example/firebase/DCargarImagen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-firebase-01/app/src/main/java/com/example/firebase/EFragmento.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-firebase-01/app/src/main/java/com/example/firebase/MapsActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-firebase-01/app/src/main/java/com/example/firebase/MapsFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-firebase-01/app/src/main/java/com/example/firebase/OrdenAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-firebase-01/app/src/main/java/com/example/firebase/PrimerFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-firebase-01/app/src/main/java/com/example/firebase/SegundoFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-firebase-01/app/src/main/java/com/example/firebase/dto/FirestoreOrdenDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-firebase-01/app/src/main/java/com/example/firebase/dto/FirestoreRestauranteDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-firebase-01/app/src/main/java/com/example/firebase/dto/FirestoreUsuarioDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-firebase-01/app/src/main/res/drawable/imagen_selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-firebase-01/app/src/main/res/layout/activity_b_firestore.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-firebase-01/app/src/main/res/layout/activity_c_ordenes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-firebase-01/app/src/main/res/layout/activity_c_ordenes_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-firebase-01/app/src/main/res/layout/activity_c_restaurante.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-firebase-01/app/src/main/res/layout/activity_d_cargar_imagen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-firebase-01/app/src/main/res/layout/activity_e_fragmento.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-firebase-01/app/src/main/res/layout/activity_maps.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-firebase-01/app/src/main/res/layout/adapter_orden.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-firebase-01/app/src/main/res/layout/fragment_maps.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-firebase-01/app/src/main/res/layout/fragment_primer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-firebase-01/app/src/main/res/layout/fragment_segundo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-firebase-01/app/src/release/res/values/google_maps_api.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +85,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1mJ2W9K3IHkC2FV2QT0Ebr0G1iT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -65,7 +94,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android-custom-viewC:/Users/bdob/AppData/Local/Android/Sdk/sources/android-30/android/widget/ListView.java_SELECTED" value="ListView" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Examen1B" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="multi-representation-previewC:/Users/bdob/AppData/Local/Android/Sdk/sources/android-30/android/widget/ListView.java_selected" value="Custom views" />
   </component>
   <component name="RunManager">
@@ -164,21 +193,21 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1610426664971" />
-    <state width="1491" height="111" key="GridCell.Tab.0.bottom" timestamp="1610417609316">
+    <state width="1491" height="192" key="GridCell.Tab.0.bottom" timestamp="1616509488541">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="111" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610417609316" />
-    <state width="1491" height="111" key="GridCell.Tab.0.center" timestamp="1610417609315">
+    <state width="1491" height="192" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616509488541" />
+    <state width="1491" height="192" key="GridCell.Tab.0.center" timestamp="1616509488541">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="111" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610417609315" />
-    <state width="1491" height="111" key="GridCell.Tab.0.left" timestamp="1610417609315">
+    <state width="1491" height="192" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1616509488541" />
+    <state width="1491" height="192" key="GridCell.Tab.0.left" timestamp="1616509488539">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="111" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610417609315" />
-    <state width="1491" height="111" key="GridCell.Tab.0.right" timestamp="1610417609316">
+    <state width="1491" height="192" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1616509488539" />
+    <state width="1491" height="192" key="GridCell.Tab.0.right" timestamp="1616509488541">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="111" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610417609316" />
+    <state width="1491" height="192" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1616509488541" />
   </component>
 </project>
