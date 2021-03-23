@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "780130076102",
+    "project_id": "moviles-2020b-software-bdob",
+    "storage_bucket": "moviles-2020b-software-bdob.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780130076102:android:1851ba78206e142876dec7",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780130076102-4nar1ohs7d4euvnc1l4lu6458d4dvao8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIOZub2nxKHPcLWtjey0Fyv31pA6oQz1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "780130076102-4nar1ohs7d4euvnc1l4lu6458d4dvao8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

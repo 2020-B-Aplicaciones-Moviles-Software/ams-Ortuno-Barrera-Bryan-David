@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CrearCuenta">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="299dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="47sp"
+        android:layout_marginEnd="316dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="CREAR CUENTA"
+        android:textColor="@color/green"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/poppins"
+        android:text="Ingresa los datos de tu cuenta"
+        android:textColor="@color/gris"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/idContraseña"
+        android:layout_width="365dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="216dp"
+        android:background="@drawable/shape"
+        android:fontFamily="@font/poppins"
+        android:inputType="textPassword"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/idEmail"
+        android:layout_width="365dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="128dp"
+        android:background="@drawable/shape"
+        android:fontFamily="@font/poppins"
+        android:inputType="textEmailAddress"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/idTelefono"
+        android:layout_width="365dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="304dp"
+        android:background="@drawable/shape"
+        android:fontFamily="@font/poppins"
+        android:inputType="number"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/idFechaNacimiento"
+        android:layout_width="365dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="384dp"
+        android:background="@drawable/shape"
+        android:editable="false"
+        android:fontFamily="@font/poppins"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="192dp"
+        android:fontFamily="@font/poppins"
+        android:text="CONTRASEÑA"
+        android:textColor="@color/green"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/idContraseña"
+        app:layout_constraintEnd_toEndOf="@+id/idContraseña"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="@+id/idContraseña"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="244dp"
+        android:fontFamily="@font/poppins"
+        android:text="TELÉFONO"
+        android:textColor="@color/green"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/idTelefono"
+        app:layout_constraintEnd_toEndOf="@+id/idTelefono"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="@+id/idTelefono" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="FECHA DE NACIMIENTO"
+        android:textColor="@color/green"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/idFechaNacimiento"
+        app:layout_constraintEnd_toEndOf="@+id/idFechaNacimiento"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="@+id/idFechaNacimiento" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/poppins"
+        android:text="EMAIL"
+        android:textColor="@color/green"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/idEmail"
+        app:layout_constraintEnd_toEndOf="@+id/idEmail"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="@+id/idEmail" />
+
+    <EditText
+        android:id="@+id/idNombre"
+        android:layout_width="150dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/shape"
+        android:fontFamily="@font/poppins"
+        android:inputType="text"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/idApellido"
+        android:layout_width="150dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/shape"
+        android:fontFamily="@font/poppins"
+        android:inputType="text"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/idNombre"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="NOMBRE"
+        android:textColor="@color/green"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/idNombre"
+        app:layout_constraintEnd_toEndOf="@+id/idNombre"
+        app:layout_constraintHorizontal_bias="0.176"
+        app:layout_constraintStart_toStartOf="@+id/idNombre" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="APELLIDO"
+        android:textColor="@color/green"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/idApellido"
+        app:layout_constraintEnd_toEndOf="@+id/idApellido"
+        app:layout_constraintHorizontal_bias="0.129"
+        app:layout_constraintStart_toStartOf="@+id/idApellido" />
+
+    <Button
+        android:id="@+id/btn_continuar"
+        android:layout_width="365dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="308dp"
+        android:background="@drawable/shapebutton"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Continuar"
+        android:textColor="@color/white"
+        android:textColorHint="#2196F3"
+        android:textColorLink="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/idEmail"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/idEmail"
+        app:layout_constraintTop_toBottomOf="@+id/idEmail" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
